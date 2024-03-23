@@ -79,5 +79,8 @@ const studenti = [
     }
 ];
 
+const nomiInMaiuscolo = studenti.map(studente => studente.name.toUpperCase());
+console.log("Nomi in maiuscolo:", nomiInMaiuscolo);
+
 
 
