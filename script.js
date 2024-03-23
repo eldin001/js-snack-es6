@@ -82,5 +82,11 @@ const studenti = [
 const nomiInMaiuscolo = studenti.map(studente => studente.name.toUpperCase());
 console.log("Nomi in maiuscolo:", nomiInMaiuscolo);
 
+const studentiVotiAlti = studenti.filter(studente => studente.grades > 70);
+console.log("Studenti con voti superiori a 70:", studentiVotiAlti);
+
+const studentiVotiAltiIdAlto = studenti.filter(studente => studente.grades > 70 && studente.id > 120);
+console.log("Studenti con voti superiori a 70 e id superiore a 120:", studentiVotiAltiIdAlto);
+
 
 
