@@ -88,5 +88,32 @@ console.log("Studenti con voti superiori a 70:", studentiVotiAlti);
 const studentiVotiAltiIdAlto = studenti.filter(studente => studente.grades > 70 && studente.id > 120);
 console.log("Studenti con voti superiori a 70 e id superiore a 120:", studentiVotiAltiIdAlto);
 
+/* Creare un array di oggetti:
+Ogni oggetto descriverà una bici da corsa con le seguenti proprietà: nome e peso.
+Stampare in console la bici con peso minore utilizzando destructuring e template literal
+ */
 
+const biciDaCorsa = [
+    {
+      nome: "Bianchi Oltre XR4",
+      peso: 7.8,
+    },
+    {
+      nome: "Trek Emonda SLR 9",
+      peso: 6.7,
+    },
+    {
+      nome: "Cannondale SuperSix EVO Hi-Mod",
+      peso: 7.3,
+    },
+    {
+      nome: "Specialized Tarmac SL7",
+      peso: 7.2,
+    },
+    {
+      nome: "Pinarello Dogma F12",
+      peso: 7.1,
+    },
+  ];
+  
 
